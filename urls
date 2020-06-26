@@ -1,0 +1,15 @@
+
+How to check if port is in use on Linux or Unix
+
+https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/
+
+How to check if port is in use in
+
+sudo netstat -tulpn | grep LISTEN
+
+
+
+
+The Complete Guide to “useradd” Command in Linux – 15 Practical Examples
+
+https://www.tecmint.com/add-users-in-linux/
