@@ -17,3 +17,10 @@ useradd -G wheel centos8             //to create user and to add to wheels group
 
 passwd centos8                      //for password for user
 
+=======================================================================================================================================
+
+Delete User
+------------------------------------------------
+
+
+userdel -r chef                   // this will delete the user
