@@ -1,0 +1,19 @@
+Creating and adding user to wheels group
+-----------------------------------------------------------
+
+useradd centos8                      //to create user
+
+passwd centos8                      //for password for user
+
+usermod -aG wheel centos8           // to add user to wheel group (sudore's)
+
+
+=======================================================================================================================================
+
+Creating and adding user to wheels in single line
+----------------------------------------------------
+
+useradd -G wheel centos8             //to create user and to add to wheels group
+
+passwd centos8                      //for password for user
+
